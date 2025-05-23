@@ -570,55 +570,6 @@ const CambodiaKioskProposal = () => {
                 </div>
               </div>
 
-              {/* Investment Comparison */}
-              <div className="mb-8">
-                <h3 className="text-2xl font-bold text-gray-800 mb-6">타 투자 대비 수익률 비교</h3>
-                <div className="overflow-x-auto">
-                  <table className="w-full bg-white rounded-lg overflow-hidden shadow-md">
-                    <thead className="bg-gray-100">
-                      <tr>
-                        <th className="px-6 py-3 text-left font-bold">투자 상품</th>
-                        <th className="px-6 py-3 text-center font-bold">연간 수익률</th>
-                        <th className="px-6 py-3 text-center font-bold">리스크</th>
-                        <th className="px-6 py-3 text-center font-bold">유동성</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr className="border-b bg-green-50">
-                        <td className="px-6 py-4 font-bold">환전 키오스크</td>
-                        <td className="px-6 py-4 text-center font-bold text-green-600">54%</td>
-                        <td className="px-6 py-4 text-center text-green-600">낮음 (보증보험)</td>
-                        <td className="px-6 py-4 text-center">중간</td>
-                      </tr>
-                      <tr className="border-b">
-                        <td className="px-6 py-4">캄보디아 부동산</td>
-                        <td className="px-6 py-4 text-center">8-15%</td>
-                        <td className="px-6 py-4 text-center text-yellow-600">높음</td>
-                        <td className="px-6 py-4 text-center text-red-600">낮음</td>
-                      </tr>
-                      <tr className="border-b">
-                        <td className="px-6 py-4">캄보디아 은행 예금</td>
-                        <td className="px-6 py-4 text-center">6-8%</td>
-                        <td className="px-6 py-4 text-center text-green-600">낮음</td>
-                        <td className="px-6 py-4 text-center text-green-600">높음</td>
-                      </tr>
-                      <tr className="border-b">
-                        <td className="px-6 py-4">현지 주식 투자</td>
-                        <td className="px-6 py-4 text-center">10-20%</td>
-                        <td className="px-6 py-4 text-center text-red-600">매우 높음</td>
-                        <td className="px-6 py-4 text-center">중간</td>
-                      </tr>
-                      <tr>
-                        <td className="px-6 py-4">암호화폐</td>
-                        <td className="px-6 py-4 text-center">-50%~200%</td>
-                        <td className="px-6 py-4 text-center text-red-600">극도로 높음</td>
-                        <td className="px-6 py-4 text-center text-green-600">높음</td>
-                      </tr>
-                    </tbody>
-                  </table>
-                </div>
-              </div>
-
               {/* Monthly Cash Flow */}
               <div className="bg-blue-50 p-8 rounded-xl">
                 <h3 className="text-2xl font-bold text-gray-800 mb-6">월별 현금 흐름 (현실적 시나리오)</h3>
@@ -763,41 +714,6 @@ const CambodiaKioskProposal = () => {
             </div>
           </div>
         )}
-      </div>
-
-      {/* Footer CTA */}
-      <div className="bg-gradient-to-r from-blue-600 to-indigo-600 text-white py-12">
-        <div className="max-w-7xl mx-auto px-4 text-center">
-          <h2 className="text-3xl font-bold mb-4">투자 문의 및 상담</h2>
-          <p className="text-xl mb-8">한국에서 검증된 연 153% 수익률, 캄보디아에서도 가능합니다</p>
-          <div className="space-y-4">
-            <div className="text-lg">
-              <strong>Next Steps:</strong>
-            </div>
-            <div className="grid md:grid-cols-5 gap-4 text-sm">
-              <div className="bg-white/10 p-4 rounded-lg">
-                <div className="font-bold">1. 관심 표명</div>
-                <div>투자 의향서 제출</div>
-              </div>
-              <div className="bg-white/10 p-4 rounded-lg">
-                <div className="font-bold">2. 실사 진행</div>
-                <div>상세 사업계획서 검토</div>
-              </div>
-              <div className="bg-white/10 p-4 rounded-lg">
-                <div className="font-bold">3. 계약 체결</div>
-                <div>투자 계약 및 보증 계약</div>
-              </div>
-              <div className="bg-white/10 p-4 rounded-lg">
-                <div className="font-bold">4. 자금 납입</div>
-                <div>단계별 투자금 납입</div>
-              </div>
-              <div className="bg-white/10 p-4 rounded-lg">
-                <div className="font-bold">5. 사업 시작</div>
-                <div>프로젝트 실행 개시</div>
-              </div>
-            </div>
-          </div>
-        </div>
       </div>
     </div>
   );
