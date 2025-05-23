@@ -1,70 +1,100 @@
-# Getting Started with Create React App
+# 캄보디아 환전 키오스크 투자 사업 제안서
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 🚀 Live Demo
+**[https://gma3561.github.io/cambodia-kiosk-proposal](https://gma3561.github.io/cambodia-kiosk-proposal)**
 
-## Available Scripts
+## 📋 프로젝트 개요
 
-In the project directory, you can run:
+한국에서 검증된 환전 키오스크 비즈니스 모델을 캄보디아에 적용하는 투자 사업 제안서입니다.
 
-### `npm start`
+### 🎯 핵심 투자 매력
+- **검증된 수익률**: 한국에서 연 153% 실제 달성
+- **안전한 투자**: 보증보험으로 원금 80% 보호
+- **빠른 회수**: 18개월 내 투자원금 완전 회수
+- **월 현금흐름**: 월 4.4% 안정적 현금 수익
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 💰 투자 구조
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+| 구분 | 내용 |
+|------|------|
+| 총 투자 규모 | $150,000 (시드머니) |
+| 최소 투자금 | $3,750 |
+| 예상 수익률 | 월 4.4% / 연 54% |
+| 투자 기간 | 3년 |
+| 보증 범위 | 원금의 80% 보증 |
 
-### `npm test`
+## 📊 수익률 시나리오
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+| 시나리오 | 한국 대비 거래량 | 일 거래액 | 월 수익률 | 연간 수익률 |
+|----------|------------------|-----------|-----------|-------------|
+| 보수적 | 20% | $9,400 | 2.5% | 31% |
+| **현실적** | **35%** | **$16,500** | **4.4%** | **54%** |
+| 적극적 | 50% | $23,500 | 6.3% | 78% |
 
-### `npm run build`
+## 🛡️ 리스크 관리
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 3단계 보증 구조
+1. **1차 보증**: 캄보디아 현지 보증보험사 (원금 80% 보증)
+2. **2차 보증**: 한국 보증보험사 재보증 (원금 60% 추가 보증)
+3. **3차 안전장치**: 키오스크 하드웨어 및 시드머니 담보
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🏗️ 기술 스택
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **Frontend**: React 19.1.0
+- **Styling**: Tailwind CSS (CDN)
+- **Icons**: Lucide React
+- **Deployment**: GitHub Pages
+- **Build Tool**: Create React App
 
-### `npm run eject`
+## 🚀 로컬 개발 환경 설정
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```bash
+# 저장소 클론
+git clone https://github.com/gma3561/cambodia-kiosk-proposal.git
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# 디렉토리 이동
+cd cambodia-kiosk-proposal
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+# 의존성 설치
+npm install
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+# 개발 서버 시작
+npm start
 
-## Learn More
+# 프로덕션 빌드
+npm run build
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# GitHub Pages 배포
+npm run deploy
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 📱 반응형 디자인
 
-### Code Splitting
+이 웹사이트는 다음 디바이스에서 최적화되어 있습니다:
+- 데스크톱 (1200px+)
+- 태블릿 (768px - 1199px)
+- 모바일 (320px - 767px)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 📄 페이지 구성
 
-### Analyzing the Bundle Size
+1. **요약**: Executive Summary 및 핵심 투자 매력
+2. **한국 실적**: 검증된 한국 환전 키오스크 수익률 데이터
+3. **비즈니스 모델**: 수익 창출 구조 및 경쟁 우위
+4. **투자 구조**: 투자 규모 및 예상 수익률
+5. **수익률 분석**: 재무 전망 및 타 투자 대비 분석
+6. **리스크 관리**: 보증 구조 및 리스크 대응방안
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 🌟 주요 특징
 
-### Making a Progressive Web App
+- **인터랙티브 탭 네비게이션**: 6개 섹션으로 구성된 직관적인 UI
+- **데이터 시각화**: 표와 차트를 통한 명확한 정보 전달
+- **한국어 최적화**: 완전한 한국어 인터페이스
+- **모바일 친화적**: 모든 디바이스에서 완벽한 사용자 경험
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 📞 문의사항
 
-### Advanced Configuration
+투자 관련 문의나 추가 정보가 필요하시면 언제든 연락주세요.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+---
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**© 2024 Cambodia Kiosk Investment Proposal. All rights reserved.**
