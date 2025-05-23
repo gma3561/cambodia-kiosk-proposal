@@ -603,7 +603,7 @@ const CambodiaKioskProposal = () => {
               {/* Guarantee Structure */}
               <div className="bg-gradient-to-r from-green-50 to-emerald-50 p-8 rounded-xl mb-8">
                 <h3 className="text-2xl font-bold text-gray-800 mb-6">보증보험 구조</h3>
-                <div className="grid md:grid-cols-3 gap-6">
+                <div className="grid md:grid-cols-2 gap-6">
                   <div className="bg-white p-6 rounded-lg">
                     <h4 className="font-bold text-green-800 mb-3">1차 보증</h4>
                     <div className="text-sm text-gray-600 space-y-2">
@@ -613,15 +613,7 @@ const CambodiaKioskProposal = () => {
                     </div>
                   </div>
                   <div className="bg-white p-6 rounded-lg">
-                    <h4 className="font-bold text-blue-800 mb-3">2차 보증</h4>
-                    <div className="text-sm text-gray-600 space-y-2">
-                      <p>• 한국 보증보험사 재보증</p>
-                      <p>• 원금의 60% 추가 보증</p>
-                      <p>• Cross-guarantee 구조</p>
-                    </div>
-                  </div>
-                  <div className="bg-white p-6 rounded-lg">
-                    <h4 className="font-bold text-purple-800 mb-3">3차 안전장치</h4>
+                    <h4 className="font-bold text-purple-800 mb-3">2차 안전장치</h4>
                     <div className="text-sm text-gray-600 space-y-2">
                       <p>• 키오스크 하드웨어 담보 (가격 협의 중)</p>
                       <p>• 환전용 시드머니 담보 ($150,000)</p>
